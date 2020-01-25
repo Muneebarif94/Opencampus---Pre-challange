@@ -1,0 +1,95 @@
+@font-face {
+  font-family: para;
+  src: url(fonts/GIL_____.ttf);
+  font-size-adjust: 0.90;
+  font-stretch: expanded;
+  }
+@font-face {
+  font-family: h2;
+  src: url(fonts/GLECB.ttf);
+  font-size-adjust: 0.90;
+  font-stretch: expanded;
+  }
+p {font-family: para;}
+
+h1 { font-family: h2; }
+.container {
+	float: right;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+/* Top left text */
+.top-left {
+	float: left;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+ul{
+	float: left;
+	list-style-type: none
+	margin-top:40px;
+}
+ul li{
+	display:inline-block;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 350%;
+  opacity: 0.80;
+  color:rgba(0,0,0,0.9);
+}
+/* Skills Table */
+
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* Footer Block */
+
+.fixed-footer{
+        width: 120%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+		opacity: 0.8;
+		
+    }
+   
+    .fixed-footer{
+        bottom: 0;
+    }
+    .containerr{
+        width: 40%;
+        margin: 0 auto; 
+		
+		
+
+
+
+/*Add hoover over button
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}*/
